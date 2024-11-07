@@ -4,7 +4,7 @@ Unofficial reference for making custom bridges or integrations.
 
 ## Commands
 
-- Older V2 (todo)
+- [Older V2 model](V2.md)
 - [New V3 model](V3.md)
 
 
@@ -21,7 +21,7 @@ Manufacturer data company id for devices is `0x0370` or 880 in decimal (Wazombi 
 - Byte 1 - ?
 - Byte 2 - current position
 - Byte 3 - target position
-- Bytes 4+ - name, ends with `30 20 [20...]`
+- Bytes 4+ - ASCII device name, ends with `30 20 [20...]`
 
 #### v3 devices
 - Byte 1 - current position
